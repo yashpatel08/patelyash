@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/patelyash/static/css/main.f908c9fb.css",
+    "main.js": "/patelyash/static/js/main.06c27e39.js",
+    "static/js/787.1ed0c42c.chunk.js": "/patelyash/static/js/787.1ed0c42c.chunk.js",
+    "static/media/dp.jpg": "/patelyash/static/media/dp.b82b766cd8564ac5f584.jpg",
+    "static/media/yp.png": "/patelyash/static/media/yp.637efe4ca33ce583c39e.png",
+    "index.html": "/patelyash/index.html",
+    "main.f908c9fb.css.map": "/patelyash/static/css/main.f908c9fb.css.map",
+    "main.06c27e39.js.map": "/patelyash/static/js/main.06c27e39.js.map",
+    "787.1ed0c42c.chunk.js.map": "/patelyash/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f908c9fb.css",
+    "static/js/main.06c27e39.js"
+  ]
+}
