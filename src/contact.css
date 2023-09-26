@@ -1,7 +1,5 @@
 /* contact form css */
 .contact {
-  order: 4;
-  flex-shrink: 2;
   margin: 30px 250px;
   padding: 100px 30px;
   display: flex;
@@ -21,8 +19,6 @@
 
 #contact {
   color: rgb(255, 255, 255);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
 }
 
 .fullCont {
@@ -45,7 +41,9 @@
   text-decoration: none;
   color: white;
 }
-
+#submit{
+  background-color: #08080b;
+}
 .contact-item:hover {
   text-decoration: none;
   border-color: #976efd;
@@ -67,38 +65,14 @@
 
 
 .contact-item {
-  border-radius: 4px;
   max-width: 400px;
-  background-color: rgb(22, 21, 21);
   opacity: 1;
-  color: white;
   padding: 5px 5px;
-
-
-
-}
-
-#submit {
-  text-decoration: none;
-  background-color: rgb(58, 91, 141);
-  padding: 3px 10px;
-  margin: 15px 35px;
-  height: 35px;
-  border-radius: 6px;
-  background-color: transparent;
 }
 
 #submit:hover {
   background-color: #2196F3;
   transition: .6s linear;
-}
-
-.send {
-  overflow: hidden;
-  text-decoration: none;
-  margin: 4px 4px;
-  height: 25px;
-
 }
 
 .fa-fa-paper-plane::before {
@@ -120,16 +94,13 @@
 
 .send {
   color: white;
-  background-color: transparent;
 }
 
 
 
 #input-name {
   color: white;
-
   background-color: transparent;
-  /* border-radius: 6px; */
   width: 200px;
   border: 2px solid white;
   margin: 1px 1px;
@@ -149,10 +120,8 @@
 
 #input-subject {
   background-color: transparent;
-
   border-radius: 6px;
   width: 200px;
-  height: 30px;
   color: white;
   margin: 1px 1px;
   height: 25px;
@@ -175,7 +144,6 @@
   display: block;
   padding: auto;
   margin: auto;
-  align-items: center;
   width: 29%;
   padding: 100px 10px;
 }
