@@ -937,4 +937,7 @@ p {
     text-wrap: wrap;
   }
 
+  .expe{
+    width: 400px;
+  }
 }
