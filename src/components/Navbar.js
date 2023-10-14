@@ -1,6 +1,6 @@
 import React from 'react';
 import yp from './yp.png';
-import {GiHamburgerMenu} from "react-icons/gi";
+// import {GiHamburgerMenu} from "react-icons/gi";
 
 
 export default function Navbar(props) {
@@ -25,13 +25,15 @@ export default function Navbar(props) {
                             <input type="text" name="search" id="search" placeholder="Search --- patelyash.github.io" />
                         </div>
                         <div className="toggle_container" id="toggle">
-                            <a className="hamburger" href='#'><GiHamburgerMenu />
-                            </a>
+                            {/* <a className="hamburger" href='#'><GiHamburgerMenu />
+                            </a> */}
+                         <ul>
                             <li><a className="toggle-items" href="#Home">Home</a></li>
                             <li><a className="toggle-items" href="#Experience">Experience</a></li>
                             <li><a className="toggle-items" href="#Skill">Skills</a></li>
                             <li><a className="toggle-items" href="#contact">Contact</a></li>
                             <li><a className="toggle-items" href="#DM">DM</a></li>
+                            </ul>
                         </div>
                     </nav>
                 </div>

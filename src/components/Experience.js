@@ -9,7 +9,7 @@ export default function Experience(props) {
 
             <div className="expp">
                 
-                <img className="expp-img"
+                <img title='Experience' className="expp-img"
                     src="https://codersera.com/blog/wp-content/uploads/2020/05/programming-languages-list.jpg" width="500"
                     height="300" />
 

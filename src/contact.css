@@ -261,7 +261,7 @@ textarea {
   }
 
   .Contactform {
-    width: 62%;
+    width: 40%;
   }
 
 }
@@ -277,8 +277,8 @@ textarea {
   }
 
   #contact {
-    padding: 4px 5px;
-    margin: 0px 0px;
+    padding: 0px 0px;
+    margin: 3px -40px;
 
   }
 
@@ -318,7 +318,7 @@ textarea {
 
   .contact-header {
     font-size: 15px;
-    margin: 8px;
+    margin-left: -62px;
     padding: 8px;
   }
 

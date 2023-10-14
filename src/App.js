@@ -1,6 +1,7 @@
 import './App.css';
 import './contact.css';
 import './footer.css';
+import React from 'react';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import dp from './dp.jpg';
@@ -9,19 +10,20 @@ import Skill from './components/Skills';
 import Contact from './components/Contact';
 import Dm from './components/Dm';
 import Footer from './components/Footer';
-import Toogle from './portfolio';
+// import Toogle from './portfolio';
 function App() {
   return (
     <div className="App">
-      <Toogle />
+      {/* <Toogle /> */}
       <Navbar></Navbar>
 
       <div className='center'>
         <Home className="home"></Home>
         <img className="dp" src={dp} width="500" height="300" alt="dp" />
-      </div>
+   
       <div className="exper">
       <Experience></Experience>
+      </div>
       </div>
       <Skill></Skill>
 
