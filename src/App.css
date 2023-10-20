@@ -1,4 +1,4 @@
-* {
+ * {
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
 }
@@ -829,7 +829,9 @@ p {
   .navbar a:not(first-child) {
     display: none;
   }
-
+.sticky{
+display:none;
+}
   .dp {
     margin: auto;
   }
