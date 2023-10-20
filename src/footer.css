@@ -185,11 +185,20 @@
     {
       display: flex;
     }
+      html,body{
+          overflow-x: hidden;
+      }
   }
-
+ @media screen and (max-width:600px) {
+      html,body{
+          overflow-x: hidden;
+      }
+ }
   @media screen and (max-width:730px) {
     .drop-mail{
       width: 320px;
     }
-    
+     html,body{
+          overflow-x: hidden;
+      }
   }
