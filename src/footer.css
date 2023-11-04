@@ -190,7 +190,7 @@
       }
   }
  @media screen and (max-width:600px) {
-      html,body{
+      html , body{
           overflow-x: hidden;
       }
  }
