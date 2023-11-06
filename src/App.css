@@ -55,9 +55,7 @@ body {
   min-height: 100vh;
   background-color: #11111b;
 }
-html, body{
-  overflow-x: hidden;
-}
+
 /* html, body, #root, .App {
   height: 100%;
 }
@@ -979,6 +977,10 @@ display:none;
     text-wrap: wrap;
     
   }
+  .App{
+    text-wrap: wrap;
+    width: auto;
+  }
 }
 
 
@@ -1022,16 +1024,11 @@ display:none;
     text-align: center;
   }
 
-}
-@media screen and (max-width: 450px){
-html, body {
-    overflow-x: hidden;
-}
-}
-@media screen and (max-width: 600px)
-{
-html, body {
-    overflow-x: hidden;
-}
+  .App{
+
+    text-wrap: wrap;
+  }
 
 }
+
+
