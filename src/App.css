@@ -54,6 +54,7 @@
 body {
   min-height: 100vh;
   background-color: #11111b;
+   background-size: 100% 100%;
 }
 
 /* html, body, #root, .App {
