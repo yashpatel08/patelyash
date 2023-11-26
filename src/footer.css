@@ -85,7 +85,7 @@
   }
   
   .socialmedia {
-    padding-left: 45px;
+    padding-left: 12px;
   }
   
   .socialmedia li a {
@@ -125,7 +125,7 @@
     }
   
     .socialmedia {
-      width: 20px;
+      width: 137px;
     }
   
     .sociallinks li {
@@ -194,3 +194,30 @@
     }
     
   }
+
+  
+@media screen and (max-width:485px) {
+  .socialmedia{
+    align-items: center;
+    
+  }
+  /* .uselink{
+    margin-left: 28px;
+  } */
+  .footer{
+    align-items: center;
+  }
+  .footer li{
+    text-align: left;
+  }
+
+  .main-div ul{
+    margin: 0;
+    text-align: left;
+  }
+
+}
+
+.contactform-items li{
+  text-align: left;
+}

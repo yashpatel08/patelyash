@@ -28,7 +28,10 @@ export default function Contact(props) {
                                                     <br/>
 
                                                         <br/>
+                                                        <li>
                                                             <textarea type="text" id="input-message" className="contact-item" placeholder="Message"></textarea>
+                                                            </li>
+                                                                
                                                             <br/>
                                                                 <br/>
                                                                     <button id="submit" type="submit" value="SEND">

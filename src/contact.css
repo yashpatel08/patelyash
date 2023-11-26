@@ -130,13 +130,12 @@
 
 #input-message {
   background-color: transparent;
-
   border-radius: 6px;
   width: 250px;
   height: 50px;
   overflow: hidden;
   color: white;
-  margin: 1px 1px;
+  margin: 0px 0px;
   border: 2px solid white;
 }
 

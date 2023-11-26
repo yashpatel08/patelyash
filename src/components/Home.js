@@ -4,9 +4,9 @@ export default function Home(props) {
     return (
 
         <section className="Home" id="Home">
-            <div className="center">
+            <div className="h-div">
                 <p>
-                    Welcome to my personal website, my name is Yash A 20 year old student and i pursuing the degree of b.tech in information
+                    Welcome to my personal website, A 21 year old student and i pursuing the degree of b.tech in information
                     technology with a growing interest in web development.
                     Through this website, I aim to showcase my projects and the skills I acquire along the way, as well as connect with other developers who can help me grow and improve.
                     Whether you are an experienced developer or a fellow beginner, I would love to hear from you and learn from your insights and expertise. Let's embark on this exciting journey of discovery and growth together.

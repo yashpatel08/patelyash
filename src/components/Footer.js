@@ -48,8 +48,8 @@ export default function Footer(props) {
 
 
                 <div className="drop-mail">
-                    <a>Have any question or want to talk with me ?<br /> You can easily connect with me <br />via email at <a
-                        className="mail" href="mailto:pateljyash0808@gmail.com">pateljyash0808@gmail.com</a><br /> or feel
+                    <a>Have any question or want to talk with me ? You can easily connect with me via email at <a
+                        className="mail" href="mailto:pateljyash0808@gmail.com">pateljyash0808@gmail.com</a> or feel
                         free to
                         drop a message in the form!</a>
                 </div>
