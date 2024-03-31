@@ -1,29 +1,48 @@
-import React from 'react';
+import React from 'react'
 
-export default function Experience(props) {
+const Experience = () => {
     return (
-        <section className="Experience" id="Experience">
-            <div className='exp-div'>
-                <h1 className="exp">
-                    Experience
-                </h1>
-                <div className="expp">
+        <div className='experience-education' id='education'>
+            <h2>Education & Experience</h2>
+            <div className="experience-container">
+                <div className="education">
 
-                    <img title='Experience' className="expp-img"
-                        src="https://codersera.com/blog/wp-content/uploads/2020/05/programming-languages-list.jpg" width="500"
-                        height="300" />
+                    <i className="fa-solid fa-graduation-cap"></i>
+                    <div className='education-content'>
+                        <div className="circle"></div>
+                        <h3>Dream International School</h3>
+                        <p>July 2018 - July 2019</p>
+                        <p>SSC - 88pr</p>
 
-                    <p className="expe">
-                        I spend my most of time for solving problems and i developed my skills by learning new things and i also do
-                        open source contributions on github . my goal as
-                        developer is to write less code more efficiently by using different language
+                        <h3>Dream International School</h3>
+                        <p>July 2019 - May 2021</p>
+                        <p>HSC - 92pr ( JEE Main ) & ( Advanced Qualifier )</p>
+                    </div>
 
-                        Whether you are an experienced developer or a fellow beginner, I would love to hear from you and learn from
-                        your insights and expertise. Let's embark on this exciting journey of discovery and growth together.
-                    </p>
+                    <div className='education-content'>
+                        <div className="circle"></div>
 
+                        <h3>Government Engineering College - Bhavnagar</h3>
+                        <p>July 2021 - May 2025</p>
+                        <p>B.E - Bachelor of Engineering</p>
+                    </div>
+                </div>
+
+                <div className="experience">
+                    <i className="fa-solid fa-briefcase"></i>
+                    <div className="circle2"></div>
+                    <div className='experience-content'>
+                        <p>
+                            As a B.E. Information Technology student,
+                            I excel in solving LeetCode challenges,
+                            crafting web projects, and contributing to GitHub open-source projects. Participated in yearly Hacktoberfest and Kharagpur Winter of Code events, showcasing adaptability and collaboration in coding. Proficient in Git, I seamlessly integrate with teams for effective project management. Committed to continuous learning, I tackle emerging trends and refine problem-solving abilities. Through personal projects, I refine technical skills and explore new concepts passionately. Eager to apply my expertise in an entry-level position and contribute to
+                            impactful projects while continuing my academic pursuits.</p>
+                    </div>
                 </div>
             </div>
-        </section>
-    );
+
+        </div>
+    )
 }
+
+export default Experience

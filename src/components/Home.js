@@ -1,26 +1,40 @@
-import React from 'react';
+import React from 'react'
+import PatelYash_Resume from './Patel_Yash.pdf'
 
-export default function Home(props) {
-    return (
 
-        <section className="Home" id="Home">
-            <div className="h-div">
-                <p>
-                    Welcome to my personal website, A 21 year old student and i pursuing the degree of b.tech in information
-                    technology with a growing interest in web development.
-                    Through this website, I aim to showcase my projects and the skills I acquire along the way, as well as connect with other developers who can help me grow and improve.
-                    Whether you are an experienced developer or a fellow beginner, I would love to hear from you and learn from your insights and expertise. Let's embark on this exciting journey of discovery and growth together.
+const Home = () => {
+  return (
+    <div className='main-home'>
+      {/* <div className='home1'>
 
-                </p>
-                <br />
-                <p>
-                    I prefer to keep learning,continue challenging myself,and do interesting
-                    things.<br /> I am passionate about building excellent web and mobile apps that improves the lives of people
-                    around me.
-                </p>
+      </div> */}
+      <div className='home2'>
+        <p className='home-intro'>Hi, My name is </p>
+        <h1 className='home-name'>Patel
+          <span> Yash</span></h1>
+        <p>Aspiring Full-Stack Web Devloper with building websites while conquering LeetCode challenges with a problem solving flair</p>
+        <div className='home-icon'>
 
-            </div>
+          <a href='https://github.com/yashpatel08'><i className="fa-brands fa-github"></i></a>
+          <a href='https://www.linkedin.com/in/yash-patel-ab2740225/'><i className="fa-brands fa-linkedin-in"></i></a>
+          <a href='https://twitter.com/Yashpatel0808'><i className="fa-brands fa-x-twitter"></i></a>
+        </div>
+        <div className='home-btns'>
+          <a href={PatelYash_Resume} target="_blank" download>
 
-        </section>
-    );
+            <button onClick={() =>
+              window.open(
+                `https://drive.google.com/file/d/1p9EL_LIYXYGPzspyH7sFhdAYSkmEy7I4/view?usp=sharing`
+              )
+            } >Download CV</button>
+          </a>
+          <a href="#contact">
+            <button>Contact</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  )
 }
+
+export default Home

@@ -1,37 +1,34 @@
-import './App.css';
-import './contact.css';
-import './footer.css';
 import React from 'react';
 import Navbar from './components/Navbar';
+import './App.css';
+import './style.css'
 import Home from './components/Home';
-import dp from './dp.jpg';
 import Experience from './components/Experience';
-import Skill from './components/Skills';
+import About from './components/About';
+import Skills from './components/Skills';
 import Contact from './components/Contact';
-import Dm from './components/Dm';
+import Work from './components/Work';
 import Footer from './components/Footer';
-// import Toogle from './portfolio';
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      {/* <Toogle /> */}
-      <Navbar></Navbar>
+    <>
 
-      <div className='center'>
-        <Home className="home"></Home>
-        <img className="dp" src={dp} width="500" height="300" alt="dp" />
-   
-      <div className="exper">
-      <Experience></Experience>
-      </div>
-      </div>
-      <Skill></Skill>
+      <div>
 
-      <Contact></Contact>
-      <Dm></Dm>
-      <Footer></Footer>
-    </div>
+        <Navbar />
+        <Home />
+        <About /> 
+        <Skills />
+         <Experience /> 
+         <Work /> 
+         <Contact />
+
+        <Footer />
+      </div>
+    </>
   );
 }
 
 export default App;
+

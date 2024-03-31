@@ -1,51 +1,87 @@
-import React from 'react';
+import { useState } from 'react';
+import emailjs from '@emailjs/browser';
 
-export default function Contact(props) {
+const Contact = () => {
+
+    const [isSubmitting, setIsSubmitting] = useState(false);
+    const [stateMessage, setStateMessage] = useState(null);
+    
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_xitsyxk",
+        "template_c6o8646",
+        e.target,
+        "SsPDxBPGWiWRatgMj"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setStateMessage('Message sent!');
+          setIsSubmitting(false);
+          setTimeout(() => {
+            setStateMessage(null);
+          }, 5000); 
+        },
+        (error) => {
+          console.log(error.text);
+          setStateMessage('Something went wrong, please try again later');
+          setIsSubmitting(false);
+          setTimeout(() => {
+            setStateMessage(null);
+          }, 5000);
+        }
+      );
+    e.target.reset();
+  };
+
+
     return (
-        <section className="contact" id="contact">
+        <div className='contact-container' id='contact'>
+            <h3 className='contact-title'>Contact Me</h3>
 
-            <div className="Contactform">
-                <div className="cont">
-                    <h1 className="contact-header"> Contact Form </h1>
-                    <section id="contact">
-                        <div className="contactform-items">
-                            <form>
-                                <ul>
-                                    <br />
-                                    <li>
-                                        <input type="text" id="input-name" className="contact-item" placeholder="Name" required />
-                                    </li>
+            <div className='contact-items'>
+                <div className='contact-input'>
+                    <form onSubmit={sendEmail}>
+                        <input className='c-input' placeholder='Name' name="from_name" required></input>
+                        <input className='c-input' placeholder='Email' name="email_id" required></input>
+                        <textarea className='c-input' id='c-textarea' placeholder='Message' name="message" required></textarea>
+                        <input className='send' type="submit" value="Send" disabled={isSubmitting} /> 
+                        {stateMessage && <p>{stateMessage}</p>}
+                    </form>
+                </div>
+                <div className='personal-info'>
+                    <div className='personalinfo'>
 
-                                    <br/>
-
-                                        <br/>
-
-                                            <li><input type="email" id="input-email" className="contact-item" placeholder="Email" /></li>
-                                            <br/>
-
-                                                <br/>
-                                                    <li><input type="text" id="input-subject" className="contact-item" placeholder="Subject" /></li>
-                                                    <br/>
-
-                                                        <br/>
-                                                        <li>
-                                                            <textarea type="text" id="input-message" className="contact-item" placeholder="Message"></textarea>
-                                                            </li>
-                                                                
-                                                            <br/>
-                                                                <br/>
-                                                                    <button id="submit" type="submit" value="SEND">
-                                                                        <a href="mailto:pateljyash0808@gmail.com" className="send">
-                                                                            <i className="fa fa-paper-plane" id="plane"></i><span className="send-text"> SEND</span>
-                                                                        </a>
-                                                                    </button>
-
-                                </ul>
-                            </form>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div className='p-detail'>
+                            <p className='p-main'>Address</p>
+                            <p className='p-sub'>Dhoraji,Gujarat,India</p>
                         </div>
-                    </section>
+                    </div>
+
+
+                    <div className='personalinfo'>
+                        <i class="fa-regular fa-envelope"></i>
+                        <div className='p-detail'>
+                            <p className='p-main'>Email</p>
+                            <p className='p-sub'>pateljyash0808@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div className='personalinfo'>
+                        <i class="fa-solid fa-phone"></i>
+                        <div className='p-detail'>
+                            <p className='p-main'>Contact No.</p>
+                            <p className='p-sub'>+91 9429578803</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
-    );
+        </div>
+    )
 }
+
+export default Contact

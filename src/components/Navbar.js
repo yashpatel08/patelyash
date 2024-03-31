@@ -1,45 +1,43 @@
-import React from 'react';
-import yp from './yp.png';
-// import {GiHamburgerMenu} from "react-icons/gi";
+import React, { useState } from 'react'
+import yp from '../media/web-icon.png'
+
+const Navbar = () => {
+  // const [open,setOpen]=useState(false);
+  // function toggle(){
+  //   setOpen((open)=> !open);
+  // }
+  const [isMenuClicked, setIsMenuClicked] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuClicked(!isMenuClicked);
+  };
+
+  return (
+    <div className='both-nav'>
+      <div className='navbar'>
+        <a href='#about' className='navlink'>About</a>
+        <a href='#skill' className='navlink'>Skill</a>
+        <a href='#education' className='navlink'>Education and Experience</a>
+        <a href='#projects' className='navlink'>Projects</a>
+        <a href='#contact' className='navlink'>Contact</a>
+      </div>
+      <div className='res-container'>
+        <h3><img className='logo' src={yp} alt='yp' /></h3>
+        <button className='toggle-btn' onClick={toggleMenu}>
+          <i className={isMenuClicked ? "fa-solid fa-xmark" : "fa-solid fa-bars"}></i>
+        </button>
+      </div>
+
+      <div className={`res-nav ${isMenuClicked ? 'active' : ''}`}>
+        <a href='#about' className='navlink'>About</a>
+        <a href='#skill' className='navlink'>Skill</a>
+        <a href='#education' className='navlink'>Education and Experience</a>
+        <a href='#projects' className='navlink'>Projects</a>
+        <a href='#contact' className='navlink'>Contact</a>
+      </div>
+    </div>
+  );
+};
 
 
-export default function Navbar(props) {
-
-    return (
-        <div className="resnav">
-            <div className="navbar" id="navbar">
-                <div className="sticky">
-                    <nav className="navbarr" id="Navbar">
-                        <div  className="alllinks" id="Alllinks">
-                            <ul> 
-                                <li> <img className="logo-img" src={yp} alt="yp" /></li>
-                                <li className="menu-list"><a href="#Home"><i className="fa-solid fa-house"> Home</i></a></li>
-                                <li className="menu-list"><a href="#Experience"><i className="fa-solid fa-briefcase"> Experience</i></a></li>
-                                <li className="menu-list"><a href="#skill1"><i className="fa-solid fa-code"> Skills</i></a></li>
-                                <li className="menu-list"><a href="#contact"><i className="fa-solid fa-envelope"> Contact</i></a></li>
-                                <li className="menu-list"><a href="#DM"><i className="fa-brands fa-telegram"> DM</i></a></li>
-                            </ul>
-                        </div>
-
-                        <div className="search">
-                            <input type="text" name="search" id="search" placeholder="Search --- patelyash.github.io" />
-                        </div>
-                        <div className="toggle_container" id="toggle">
-                            {/* <a className="hamburger" href='#'><GiHamburgerMenu />
-                            </a> */}
-                         <ul>
-                            <li><a className="toggle-items" href="#Home">Home</a></li>
-                            <li><a className="toggle-items" href="#Experience">Experience</a></li>
-                            <li><a className="toggle-items" href="#Skill">Skills</a></li>
-                            <li><a className="toggle-items" href="#contact">Contact</a></li>
-                            <li><a className="toggle-items" href="#DM">DM</a></li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    );
-}
-
-
+export default Navbar
