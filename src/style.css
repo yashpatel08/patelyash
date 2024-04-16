@@ -58,6 +58,15 @@
     width: 50%;
 }
 
+.highlight{
+    text-decoration: none;
+    color:#6d62e9;
+}
+.highlight a{
+    text-decoration: none;
+    color:#FDA403;
+
+}
 .home-intro {
     color: rgb(105, 110, 115);
     opacity: 1vh;
@@ -960,6 +969,7 @@ li {
 
     .project-container{
         height: 110vh;
+        width: 350px;
     }
     .project-slide{
         height: 79vh;

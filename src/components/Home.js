@@ -12,7 +12,7 @@ const Home = () => {
         <p className='home-intro'>Hi, My name is </p>
         <h1 className='home-name'>Patel
           <span> Yash</span></h1>
-        <p>Aspiring Full-Stack Web Devloper with building websites while conquering LeetCode challenges with a problem solving flair</p>
+        <p>Aspiring <span className='highlight'>Full-Stack Web Devloper</span> with building websites while conquering LeetCode challenges with a problem solving flair</p>
         <div className='home-icon'>
 
           <a href='https://github.com/yashpatel08'><i className="fa-brands fa-github"></i></a>
