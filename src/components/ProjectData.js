@@ -2,6 +2,7 @@
 import textEditorImg  from '../media/textEditor.png'
 import newsNetwork from '../media/newsNetwork.png'
 import fashion4you from '../media/fashion4you.png'
+import wheatherapp from '../media/wheatherapp.png'
 
 export const projects = [
     {
@@ -39,7 +40,17 @@ export const projects = [
         link: "",
         dec: "Created a MERN stack-based clone of Myntra e-Commerce, encompassing core functionalities like user authentication, product catalog, cart management with Stripe integration, user profile,add favorites",
         repo: "https://github.com/yashpatel08/myntra-clone",
-    },
+    },{
+        img: wheatherapp,
+        name: "Wheather app",
+        tech: [
+            "React",
+            "API"
+        ],
+        link: "https://weather-app-one-puce.vercel.app/",
+        dec: "A wheather app created in react using api of open-weather-map and it gives precise updates on temperature, wind speed",
+        repo: "https://github.com/yashpatel08/weather-app",
+    }
     
 ]
 
