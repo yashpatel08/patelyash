@@ -3,9 +3,22 @@ import textEditorImg  from '../media/textEditor.png'
 import newsNetwork from '../media/newsNetwork.png'
 import fashion4you from '../media/fashion4you.png'
 import wheatherapp from '../media/wheatherapp.png'
+import AviatoImg from '../media/Aviato.png'
+
 import um from '../media/user-manage.png'
 
 export const projects = [
+    {
+        img: AviatoImg,
+        name: "IT Consultancy website",
+        tech: [
+            "React", 
+            "JavaScript",
+        ],
+        link: "https://aviator-omega.vercel.app/",
+        dec: "Built a website for an internship application for an IT consultancy, but no response yet. Check it out live link and repo is kept private",
+        repo: "",
+    },
     {
         img: textEditorImg,
         name: "Text Editor",
