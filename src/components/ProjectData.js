@@ -4,6 +4,7 @@ import newsNetwork from '../media/newsNetwork.png'
 import fashion4you from '../media/fashion4you.png'
 import wheatherapp from '../media/wheatherapp.png'
 import AviatoImg from '../media/Aviato.png'
+import Imperial from '../media/imperial.png'
 
 import um from '../media/user-manage.png'
 
@@ -52,6 +53,16 @@ export const projects = [
         link: "",
         dec: "News Network is a web application that provides a curated collection of daily news articles from various categories, including Business, Entertainment, General, Health, Science, Sports, and Technology.",
         repo: "https://github.com/yashpatel08/News-Network",
+    },
+    {
+        img: Imperial,
+        name: "Restaurant Website",
+        tech: [
+            "React" 
+        ],
+        link: "https://restaurant-wine-two.vercel.app/",
+        dec: "It is a restaurant website that shows details of the types of rooms, menus, and event organization available. Imperial Palace Hotel Rajkot offers the most spacious rooms and suites for extra comfort and luxury.",
+        repo: "https://github.com/yashpatel08/Restaurant",
     },
     {
         img: fashion4you,
