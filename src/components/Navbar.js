@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import yp from '../media/web-icon.png'
-
 const Navbar = () => {
   // const [open,setOpen]=useState(false);
   // function toggle(){
