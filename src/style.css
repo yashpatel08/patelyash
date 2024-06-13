@@ -950,7 +950,7 @@ li {
     .res-nav.active{
         width: 100%;
         position: fixed;
-        margin-top: 7vh;
+        margin-top: 9vh;
         z-index: 100;
     }
 
