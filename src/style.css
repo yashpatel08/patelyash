@@ -630,6 +630,34 @@ li {
     display: none;
 }
 
+.app-cont{
+    animation: ltr 1s linear;
+}
+
+.navlink.clicked {
+    top: 0;
+    opacity: 1;
+    animation: ltr 1s linear forwards;
+}
+
+.navlink {
+    position: relative;
+    display: inline-block;
+    transition: top 1s linear, opacity 1s linear;
+}
+
+@keyframes ltr {
+    0% {
+        top: 100%;
+        opacity: 0;
+    }
+
+    100% {
+        top: 0%;
+        opacity: 1;
+    }
+}
+
 @media only screen and (max-width: 600px) {
 
     html,
@@ -997,4 +1025,8 @@ li {
     .project-slide {
         height: 76vh;
     }
+}
+
+html {
+    scroll-behavior: smooth;
 }
