@@ -10,6 +10,14 @@ const Experience = () => {
                     <i className="fa-solid fa-graduation-cap"></i>
                     <div className='education-content'>
                         <div className="circle"></div>
+                        <h3>Government Engineering College - Bhavnagar</h3>
+                        <p>July 2021 - May 2025</p>
+                        <p>B.E - Bachelor of Engineering in Information Technology</p>
+                    </div>
+
+                    <div className='education-content'>
+                        <div className="circle"></div>
+
                         <h3>Dream International School</h3>
                         <p>July 2018 - July 2019</p>
                         <p>SSC - 88pr</p>
@@ -17,14 +25,6 @@ const Experience = () => {
                         <h3>Dream International School</h3>
                         <p>July 2019 - May 2021</p>
                         <p>HSC - 92pr ( JEE Main ) & ( Advanced Qualifier )</p>
-                    </div>
-
-                    <div className='education-content'>
-                        <div className="circle"></div>
-
-                        <h3>Government Engineering College - Bhavnagar</h3>
-                        <p>July 2021 - May 2025</p>
-                        <p>B.E - Bachelor of Engineering</p>
                     </div>
                 </div>
 

@@ -186,7 +186,7 @@
     margin-left: 8vh;
     padding-left: 4vh;
     text-align: left;
-    height: 36vh;
+    height: 47vh;
     border-left: 1px solid rgb(181, 202, 202);
 
 }
@@ -257,6 +257,11 @@
     margin: 0;
 }
 
+.education-content h3{
+    padding-top: .5vh;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .experience-content {
     width: 57vh;
     height: 40vh;
