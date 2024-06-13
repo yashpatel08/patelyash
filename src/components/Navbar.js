@@ -11,6 +11,9 @@ const Navbar = () => {
     setIsMenuClicked(!isMenuClicked);
   };
 
+  // const closeNav = () => {
+  //   setIsMenuClicked(!isMenuClicked);
+  // }
   return (
     <div className='both-nav'>
       <div className='navbar'>
@@ -28,11 +31,11 @@ const Navbar = () => {
       </div>
 
       <div className={`res-nav ${isMenuClicked ? 'active' : ''}`}>
-        <a href='#about' className='navlink'>About</a>
-        <a href='#skill' className='navlink'>Skill</a>
-        <a href='#education' className='navlink'>Education and Experience</a>
-        <a href='#projects' className='navlink'>Projects</a>
-        <a href='#contact' className='navlink'>Contact</a>
+        <a href='#about' className='navlink' onClick={toggleMenu}>About</a>
+        <a href='#skill' className='navlink' onClick={toggleMenu}>Skill</a>
+        <a href='#education' className='navlink' onClick={toggleMenu}>Education and Experience</a>
+        <a href='#projects' className='navlink' onClick={toggleMenu}>Projects</a>
+        <a href='#contact' className='navlink' onClick={toggleMenu}>Contact</a>
       </div>
     </div>
   );

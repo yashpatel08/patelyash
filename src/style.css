@@ -752,6 +752,7 @@ li {
         flex-direction: column;
         padding: 0vh;
         margin-left: 1vh;
+        padding-top: 10vh;
     }
 
     .home2 {
@@ -938,6 +939,22 @@ li {
     .footer-main span {
         margin-left: 1vh;
     }
+    .res-container{
+        width: 100%;
+        position: fixed;
+        background-color: white;
+        z-index: 1000;
+        height: 7.5vh;
+    }
+
+    .res-nav.active{
+        width: 100%;
+        position: fixed;
+        margin-top: 7vh;
+        z-index: 100;
+    }
+
+  
 }
 
 @media only screen and (max-width: 500px) {
