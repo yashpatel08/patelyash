@@ -855,8 +855,8 @@ li {
 
     .experience-education {
         height: 115vh;
-        width: 435px;
-        margin-bottom: 20vh;
+        width: 100%;
+        margin-bottom: 22vh;
         text-align: center;
     }
 
@@ -1007,7 +1007,7 @@ li {
     .experience-education {
         width: 328px;
         height: 155vh;
-        margin-bottom: 12vh;
+        margin-bottom: 20vh;
     }
 
     .education {
