@@ -19,12 +19,13 @@ const Experience = () => {
                         <div className="circle"></div>
 
                         <h3>Dream International School</h3>
+                        <p>July 2019 - May 2021</p>
+                        <p>HSC - 92pr ( JEE Main ) & ( Advanced Qualifier )</p>
+                        
+                        <h3>Dream International School</h3>
                         <p>July 2018 - July 2019</p>
                         <p>SSC - 88pr</p>
 
-                        <h3>Dream International School</h3>
-                        <p>July 2019 - May 2021</p>
-                        <p>HSC - 92pr ( JEE Main ) & ( Advanced Qualifier )</p>
                     </div>
                 </div>
 
