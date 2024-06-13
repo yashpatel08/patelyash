@@ -942,7 +942,8 @@ li {
     .res-container{
         width: 100%;
         position: fixed;
-        background-color:  #d4e5f6;;
+        border-bottom: 1px solid #229df0;
+        background-color: white;
         z-index: 1000;
         height: 7.5vh;
     }
