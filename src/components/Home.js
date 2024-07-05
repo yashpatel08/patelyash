@@ -21,10 +21,10 @@ const Home = () => {
         </div>
         <div className='home-btns'>
           <a href={PatelYash_Resume} target="_blank" download>
-
+            {/* resume */}
             <button onClick={() =>
               window.open(
-                `https://drive.google.com/file/d/1AMx1LTtw0HSxN2H--vi7OSPfo3dptlgW/view?usp=sharing`
+                `https://drive.google.com/file/d/1fTef8G_58TcXjmFo_CDRK_JHZNS1D-1n/view?usp=sharing`
               )
             } >Download CV</button>
           </a>
