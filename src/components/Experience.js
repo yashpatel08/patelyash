@@ -21,7 +21,7 @@ const Experience = () => {
                         <h3>Dream International School</h3>
                         <p>July 2019 - May 2021</p>
                         <p>HSC - 92pr ( JEE Main ) & ( Advanced Qualifier )</p>
-                        
+
                         <h3>Dream International School</h3>
                         <p>July 2018 - July 2019</p>
                         <p>SSC - 88pr</p>
@@ -33,11 +33,11 @@ const Experience = () => {
                     <i className="fa-solid fa-briefcase"></i>
                     <div className="circle2"></div>
                     <div className='experience-content'>
+                        <h3 className='experience-title'>Intern — Odoo India</h3>
+                        <p><strong>Jan 2025 - Present</strong></p>
                         <p>
-                            As a B.E. Information Technology student,
-                            I excel in solving LeetCode challenges,
-                            crafting web projects, and contributing to GitHub open-source projects. Participated in yearly Hacktoberfest and Kharagpur Winter of Code events, showcasing adaptability and collaboration in coding. Proficient in Git, I seamlessly integrate with teams for effective project management. Committed to continuous learning, I tackle emerging trends and refine problem-solving abilities. Through personal projects, I refine technical skills and explore new concepts passionately. Eager to apply my expertise in an entry-level position and contribute to
-                            impactful projects while continuing my academic pursuits.</p>
+                            Working as an intern at Odoo India, I actively contribute to the development and enhancement of business applications using the Odoo framework. I’ve gained hands-on experience with Python, PostgreSQL, and XML, and strengthened my understanding of enterprise resource planning systems. Collaborated with cross-functional teams to build real-world solutions and participated in code reviews, debugging, and feature implementations across modules.
+                        </p>
                     </div>
                 </div>
             </div>
