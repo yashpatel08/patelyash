@@ -849,13 +849,17 @@ li {
     }
 
     .circle {
-        left: 3.2%;
+        left: 4.5%;
         transform: translateY(5%);
     }
 
     .circle2 {
-        left: 3.2%;
+        left: 4.5%;
         transform: translateY(45%);
+    }
+
+    .experience-title{
+        margin-top: .5vh;
     }
 
     .fa-graduation-cap,
@@ -866,7 +870,7 @@ li {
     .experience-education {
         height: 115vh;
         width: 100%;
-        margin-bottom: 22vh;
+        margin-bottom: 20vh;
         text-align: center;
     }
 
@@ -1017,8 +1021,8 @@ li {
 
     .experience-education {
         width: 328px;
-        height: 155vh;
-        margin-bottom: 20vh;
+        height: 148vh;
+        margin-bottom: 0vh;
     }
 
     .education {
