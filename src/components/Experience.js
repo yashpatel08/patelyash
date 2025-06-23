@@ -34,7 +34,7 @@ const Experience = () => {
                     <div className="circle2"></div>
                     <div className='experience-content'>
                         <h3 className='experience-title'>Intern — Odoo India</h3>
-                        <p><strong>Jan 2025 - Present</strong></p>
+                        <p><strong>Jan 2025 - June 2025</strong></p>
                         <p>
                             Working as an intern at Odoo India, I actively contribute to the development and enhancement of business applications using the Odoo framework. I’ve gained hands-on experience with Python, PostgreSQL, and XML, and strengthened my understanding of enterprise resource planning systems. Collaborated with cross-functional teams to build real-world solutions and participated in code reviews, debugging, and feature implementations across modules.
                         </p>
