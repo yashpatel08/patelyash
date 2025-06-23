@@ -6,10 +6,25 @@ import wheatherapp from '../media/wheatherapp.png'
 import AviatoImg from '../media/Aviato.png'
 import Imperial from '../media/imperial.png'
 import Movieshelf from '../media/movieshelf.png'
+import StreamVault from '../media/StreamVault.png'
 
 import um from '../media/user-manage.png'
 
 export const projects = [
+    {
+        img: StreamVault,
+        name: "StreamVault",
+        tech: [
+            "React",
+            "Node",
+            "Express",
+            "MongoDB",
+            "Cloudniary"
+        ],
+        link: "",
+        dec: "Built a dynamic video and image sharing platform where users can upload content via Cloudinary and view uploads by all other users in real-time.",
+        repo: "https://github.com/yashpatel08/streamvault",
+    },
     {
         img: Movieshelf,
         name: "MovieShelf",
