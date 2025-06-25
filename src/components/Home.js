@@ -24,7 +24,7 @@ const Home = () => {
             {/* resume */}
             <button onClick={() =>
               window.open(
-                `https://drive.google.com/file/d/1SaCuky3KuFysnFs1tfeeApzHzkWdUUOg/view`
+                `https://drive.google.com/file/d/1fPI9tGrW3cVFcR8B_B10CkBdr20BGrbn/view?usp=sharing`
               )
             } >Download CV</button>
           </a>
