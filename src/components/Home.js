@@ -16,8 +16,8 @@ const Home = () => {
         <div className='home-icon'>
 
           <a href='https://github.com/yashpatel08'><i className="fa-brands fa-github"></i></a>
-          <a href='https://www.linkedin.com/in/yash-patel-ab2740225/'><i className="fa-brands fa-linkedin-in"></i></a>
-          <a href='https://twitter.com/Yashpatel0808'><i className="fa-brands fa-x-twitter"></i></a>
+          <a href='https://www.linkedin.com/in/patel-yash-ab2740225/'><i className="fa-brands fa-linkedin-in"></i></a>
+          <a href='https://x.com/patel_yassh'><i className="fa-brands fa-x-twitter"></i></a>
         </div>
         <div className='home-btns'>
           <a href={PatelYash_Resume} target="_blank" download>

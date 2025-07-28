@@ -7,6 +7,7 @@ import vscode from '../media/vscode.png';
 import communication from '../media/communication.png';
 import team from '../media/team.png';
 import create from '../media/create.png';
+import python from '../media/python.png'
 
 const Skills = () => {
     return (
@@ -50,6 +51,12 @@ const Skills = () => {
                         <div className='skillcard'>
                             <i className=""><img src={express} alt=''></img></i>
                             <small>ExpressJs</small>
+                        </div>
+                        <div className='skillcard'>
+                            <i className=''>
+                                <img src={python} alt='Python Logo' />
+                            </i>
+                            <small>Python</small>
                         </div>
                         <div className='skillcard'>
                             <i className=""><img src={mongodb} alt=''></img></i>
